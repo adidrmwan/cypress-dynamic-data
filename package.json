@@ -1,0 +1,70 @@
+{
+  "name": "cypress-dynamic-data",
+  "version": "1.0.0",
+  "description": "Dynamically generate data in Cypress from CSV/XLSX",
+  "main": "index.js",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/you54f/cypress-dynamic-data"
+  },
+  "author": "Yousaf Nabi",
+  "license": "MIT",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "cypress:record": "cypress run --record",
+    "lint": "tslint --project .",
+    "convertCSVtoJSON":"ts-node testData/convertCSVtoJSON.ts",
+    "convertXLStoJSON":"ts-node testData/convertXLStoJSON.ts"
+  },
+  "dependencies": {
+    "@cypress/browserify-preprocessor": "^2.1.1",
+    "@slack/client": "^5.0.2",
+    "@types/cypress-axe": "^0.4.0",
+    "@types/papaparse": "^5.0.1",
+    "aws-sdk": "^2.511.0",
+    "axe-core": "^3.3.1",
+    "browserify": "^16.5.0",
+    "cypress": "3.4.1",
+    "cypress-axe": "^0.5.1",
+    "cypress-failed-log": "^2.5.1",
+    "cypress-multi-reporters": "^1.2.1",
+    "cypress-page-object": "^1.0.0",
+    "cypress-slack-reporter": "^0.4.3",
+    "husky": "^3.0.3",
+    "lint-staged": "^9.2.1",
+    "mocha": "^6.2.0",
+    "mocha-junit-reporter": "^1.23.1",
+    "mochawesome": "^4.1.0",
+    "mochawesome-merge": "^2.0.1",
+    "mochawesome-report-generator": "^4.0.1",
+    "moment": "^2.24.0",
+    "prettier": "^1.18.2",
+    "shelljs": "^0.8.3",
+    "sonarqube-scanner": "^2.5.0",
+    "tsify": "^4.0.1",
+    "tslint": "^5.18.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-no-focused-test": "^0.5.0",
+    "typescript": "^3.5.3",
+    "uuid": "^3.3.2",
+    "xlsx": "^0.15.1"
+  },
+  "devDependencies": {
+    "@types/node": "^12.7.8",
+    "papaparse": "^5.1.0"
+  },
+  "lint-staged": {
+    "cypress/**/*.ts": [
+      "prettier --write",
+      "tslint --fix",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  }
+}
