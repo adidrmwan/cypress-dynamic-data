@@ -40,7 +40,7 @@
     "mochawesome-merge": "^4.0.0",
     "mochawesome-report-generator": "^5.0.0",
     "moment": "^2.24.0",
-    "prettier": "^1.18.2",
+    "prettier": "^2.0.0",
     "shelljs": "^0.8.3",
     "sonarqube-scanner": "^2.5.0",
     "tsify": "^4.0.1",
