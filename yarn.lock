@@ -1819,6 +1819,14 @@ chalk@^3.0.0:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
 
+chalk@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.0.0.tgz#6e98081ed2d17faab615eb52ac66ec1fe6209e72"
+  integrity sha512-N9oWFcegS0sFr9oh1oz2d7Npos6vNoWW9HvtCg5N1KRFpUhaAhvTv5Y58g880fZaEYSNm3qDz8SU1UrGvp+n7A==
+  dependencies:
+    ansi-styles "^4.1.0"
+    supports-color "^7.1.0"
+
 charenc@~0.0.1:
   version "0.0.2"
   resolved "https://registry.yarnpkg.com/charenc/-/charenc-0.0.2.tgz#c0a1d2f3a7092e03774bfa83f14c0fc5790a8667"
@@ -4383,10 +4391,10 @@ mochawesome-report-generator@^4.0.1:
     validator "^10.11.0"
     yargs "^13.2.2"
 
-mochawesome-report-generator@^4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/mochawesome-report-generator/-/mochawesome-report-generator-4.1.0.tgz#f303e6acb5b30fd900f2ed8a0ba2054a034c9c39"
-  integrity sha512-8diUnfzLqMPybIsq3aw3Zc4Npw9W2ZCx8/fMR0ShAXfDTtPH4t2mRykXEWBhsBA5+jM74mjWpwEqY6Pmz+pCsw==
+mochawesome-report-generator@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/mochawesome-report-generator/-/mochawesome-report-generator-5.0.0.tgz#9165e13955f8c8ee7d39d6d8f8e8127e30cf3d8e"
+  integrity sha512-1fj5m/kSNTAKf2zk8cK+20vW+4oGThBu0RlOBnmwwdyZbA2Qmp6WahpheZorcf672CjS5Q8xyQvA4A1Ywsd7Wg==
   dependencies:
     chalk "^2.4.2"
     dateformat "^3.0.2"
@@ -4395,28 +4403,26 @@ mochawesome-report-generator@^4.1.0:
     lodash.isfunction "^3.0.8"
     opener "^1.4.2"
     prop-types "^15.7.2"
-    react "^16.8.5"
-    react-dom "^16.8.5"
     tcomb "^3.2.17"
     tcomb-validation "^3.3.0"
     validator "^10.11.0"
     yargs "^13.2.2"
 
-mochawesome@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/mochawesome/-/mochawesome-5.0.0.tgz#eb3d96e589ccdd30146bbde581fb3deec01bcbec"
-  integrity sha512-1Vb0G8rqURptOZUmU5xLkLUWKYlx97IoMF2/xW18tL08Z1CZaUbzLAGbgq/s3DCn/vOrb8Dy7swb/cszp3Ylpg==
+mochawesome@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/mochawesome/-/mochawesome-6.0.0.tgz#3e21c607bc9bde8a420acdf5b9647fcc45d07019"
+  integrity sha512-2KExi6xpFYEsQEpT6HLP2lTp1J/H18zGXe6qrUO4a6KQ78tyWguB2HpNQdWJ+GN5oA0WyIAp1Vadd/gIO0zy2A==
   dependencies:
-    chalk "^3.0.0"
+    chalk "^4.0.0"
     diff "^4.0.1"
     json-stringify-safe "^5.0.1"
     lodash.isempty "^4.4.0"
     lodash.isfunction "^3.0.9"
     lodash.isobject "^3.0.2"
     lodash.isstring "^4.0.1"
-    mochawesome-report-generator "^4.1.0"
+    mochawesome-report-generator "^5.0.0"
     strip-ansi "^6.0.0"
-    uuid "^7.0.0"
+    uuid "^7.0.3"
 
 module-deps@^6.0.0:
   version "6.2.0"
@@ -6397,6 +6403,11 @@ uuid@^7.0.0:
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-7.0.0.tgz#1833d4b9ce50b732bfaa271f9cb74e974d303c79"
   integrity sha512-LNUrNsXdI/fUsypJbWM8Jt4DgQdFAZh41p9C7WE9Cn+CULOEkoG2lgQyH68v3wnIy5K3fN4jdSt270K6IFA3MQ==
+
+uuid@^7.0.3:
+  version "7.0.3"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-7.0.3.tgz#c5c9f2c8cf25dc0a372c4df1441c41f5bd0c680b"
+  integrity sha512-DPSke0pXhTZgoF/d+WSt2QaKMCFSfx7QegxEWT+JOuHF5aWrKEn0G+ztjuJg/gG8/ItK+rbPCD/yNv8yyih6Cg==
 
 validate-npm-package-license@^3.0.1:
   version "3.0.4"
