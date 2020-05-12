@@ -21,7 +21,7 @@
   "dependencies": {
     "@cypress/browserify-preprocessor": "^2.1.1",
     "@slack/client": "^5.0.2",
-    "@types/cypress-axe": "^0.4.0",
+    "@types/cypress-axe": "^0.8.0",
     "@types/papaparse": "^5.0.1",
     "aws-sdk": "^2.511.0",
     "axe-core": "^3.3.1",
